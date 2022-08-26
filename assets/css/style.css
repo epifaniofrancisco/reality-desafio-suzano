@@ -10,7 +10,7 @@ html,body {
   font-weight: normal;
 }
 
-.header-block,
+header,
 .commitments-block,
 .goals-block,
 .diversity-block,
@@ -22,7 +22,7 @@ html,body {
   margin: 0 auto;
 }
 
-.header-block::after,
+header::after,
 .commitments-block::after,
 .goals-block::after,
 .diversity-block::after,
@@ -35,36 +35,36 @@ html,body {
 }
 
 /* Header */
-.header-block {
+header {
   display: block;
   margin-top: 20pt;
 }
 
-.header-block div:first-child {
+header div:first-child {
   float: left;
 }
 
-.header-block img {
+header img {
   width: 178px;
   height: 41px;
 }
 
-.header-block nav {
+header nav {
   float: right;
 }
 
-.header-block nav ul li:first-child{
+header nav ul li:first-child{
   font-weight: bold;
 }
 
-.header-block nav ul li {
+header nav ul li {
   display: inline;
   margin-right: 10pt;
   font-style: normal;
   font-weight: normal;
 }
 
-.header-block nav ul li a {
+header nav ul li a {
   color: #1F1534;
   text-decoration: none;
 }
@@ -96,12 +96,17 @@ html,body {
   margin-top: 80pt;
 }
 
+.diversity-block .diversity-h1 span {
+  color: #63b1fc;
+}
+
 .diversity-block .diversity-text
 {
   font-weight: 300;
   font-size: 12pt;
   line-height: 16pt;
   color: #7D7987;
+  text-align: justify;
 }
 
 .diversity-block::after {
@@ -131,6 +136,7 @@ html,body {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
+  text-align: justify;
 }
 
 .commitment-text {
@@ -221,6 +227,10 @@ html,body {
   margin-top: 50pt;
   font-weight: 400;
   font-size: 18pt;
+}
+
+.goal-1 .goal-1-text span, .goal-2-text span {
+  color: #63b1fc;
 }
 
 .goal-2 {
@@ -371,7 +381,7 @@ html,body {
 }
 
 /* Footer */
-.footer-block {
+footer {
 
   left: 0;
   right: 0;
@@ -398,7 +408,7 @@ html,body {
   margin-top: 0;
 }
 
-.footer-block ul li{
+footer ul li{
   display: inline;
   list-style-type: none;
   padding-right: 20px;
@@ -406,7 +416,7 @@ html,body {
   margin: 1rem 0 0 0;
 }
 
-.footer-block div ul li a {
+footer div ul li a {
   color: #1F1534;
   text-decoration: none;
 }
@@ -419,19 +429,19 @@ html,body {
   margin-top: 2rem;
 }
 
-.footer-block div:first-child p:last-child {
+footer div:first-child p:last-child {
   position: absolute;
   padding-top: 8rem;
 }
 
-.footer-block div:last-child p:first-child {
+footer div:last-child p:first-child {
   font-weight: 700;
   font-size: 12pt;
   color: #484848;
   text-align: left;
 }
 
-.footer-block div:last-child {
+footer div:last-child {
   display: flex;
   flex-wrap: wrap;
   justify-self: right;
