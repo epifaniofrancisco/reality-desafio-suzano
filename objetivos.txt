@@ -8,11 +8,11 @@ O que fazer:
 
 Dark Mode: 
 Transcrição de imagens: x
-Keyboards Inputs: x
-Troca de cores: x
 Tags semânticas: x
+Troca de cores: 
 Alto contraste: x
-Focos e estilos no links: x 
+Focos e estilos no links: x
+responsividade: 
 
 Testes de acessibilidade:
 WEB
